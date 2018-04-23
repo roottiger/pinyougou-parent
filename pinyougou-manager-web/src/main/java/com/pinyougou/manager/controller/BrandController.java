@@ -19,7 +19,7 @@ public class BrandController {
     @RequestMapping("/findAll")
     @ResponseBody
     public List<TbBrand> findAll(){
-
+//ok
         return brandService.findAll();
     }
 }
